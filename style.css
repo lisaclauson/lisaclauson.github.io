@@ -129,8 +129,8 @@ a:hover { text-decoration: underline; }
 }
 
 .hero-avatar {
-  width: 88px;
-  height: 88px;
+  width: 188px;
+  height: 188px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), #7c3aed);
   color: #fff;
