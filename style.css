@@ -108,7 +108,7 @@ a:hover { text-decoration: underline; }
 ═══════════════════════════════════════════ */
 .hero {
   position: relative;
-  padding: 100px 24px 80px;
+  padding: 100px 24px 36px;
   text-align: center;
   overflow: hidden;
 }
