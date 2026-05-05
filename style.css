@@ -654,6 +654,67 @@ a:hover { text-decoration: underline; }
 }
 
 /* ═══════════════════════════════════════════
+   SUBSECTION TITLE
+═══════════════════════════════════════════ */
+.subsection-title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin-top: 52px;
+  margin-bottom: 20px;
+  color: var(--ink);
+}
+
+/* ═══════════════════════════════════════════
+   CERT GRID
+═══════════════════════════════════════════ */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+
+.cert-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.cert-name {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.cert-org {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  margin-top: 3px;
+}
+
+/* ═══════════════════════════════════════════
+   PUB DESC
+═══════════════════════════════════════════ */
+.pub-desc {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin-top: 6px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* ═══════════════════════════════════════════
    SKILLS
 ═══════════════════════════════════════════ */
 .skills-grid {
