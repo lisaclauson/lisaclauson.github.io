@@ -759,10 +759,10 @@ a:hover { text-decoration: underline; }
 }
 
 .skill-tag-primary {
-  background: var(--accent-light);
-  border-color: #93c5fd;
-  color: #1d4ed8;
-  font-weight: 600;
+  background: #fff;
+  border-color: var(--border);
+  color: var(--ink-muted);
+  font-weight: 500;
 }
 
 /* ═══════════════════════════════════════════
