@@ -804,6 +804,18 @@ a:hover { text-decoration: underline; }
 .pub-poster { background: var(--yellow-light); color: var(--yellow); }
 
 .pub-body { flex: 1; }
+
+.pub-citation {
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.pub-citation em {
+  font-style: italic;
+}
+
 .pub-title {
   font-size: 0.95rem;
   color: var(--ink);
